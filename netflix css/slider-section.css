@@ -1,0 +1,79 @@
+#headers{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: block;
+    line-height: 14px;
+    user-select: none;
+    cursor: pointer;
+}
+#headers span{
+    display: none;
+}
+
+
+#fulltext{
+    display: none;
+    font-size: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#Mainsection, #Mainsectiontoprated, #Mainsectionlatest, #Mainsectiontvseries, #Mainsectionactionmovies, 
+#Mainsectionsciencefictionmovies, #Mainsectionwarmovies, #Mainsectionthrillermovies, #Mainsectionhorrormovies,
+#Mainsectiontvpopularseries, #Mainsectiontvtopratedseries
+{
+    object-fit: contain;
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 30px;
+    overflow-y: hidden;
+    filter: brightness(1.2);
+    scrollbar-width: none;
+}
+#Mainsection::-webkit-scrollbar, #Mainsectiontoprated::-webkit-scrollbar, #Mainsectionlatest::-webkit-scrollbar,
+#Mainsectiontvseries::-webkit-scrollbar, #Mainsectionactionmovies::-webkit-scrollbar,
+#Mainsectionsciencefictionmovies::-webkit-scrollbar,#Mainsectionwarmovies::-webkit-scrollbar,
+#Mainsectionthrillermovies::-webkit-scrollbar, #Mainsectionhorrormovies::-webkit-scrollbar,
+#Mainsectiontvpopularseries::-webkit-scrollbar, #Mainsectiontvtopratedseries::-webkit-scrollbar
+{
+    display: none;
+}
+
+#Mainsection img, #Mainsectiontoprated img, #Mainsectionlatest img, #Mainsectiontvseries img, #Mainsectionactionmovies img,
+#Mainsectionsciencefictionmovies img, #Mainsectionwarmovies img, #Mainsectionthrillermovies img,
+#Mainsectionhorrormovies img, #Mainsectiontvpopularseries img, #Mainsectiontvtopratedseries img
+{
+    cursor: pointer;
+    width: 230px;
+    height: 130px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 250ms ease;
+    margin-right: 14px;
+}
+#Mainsection img:hover, #Mainsectiontoprated img:hover, #Mainsectionlatest img:hover, #Mainsectiontvseries img:hover,
+#Mainsectionactionmovies img:hover, #Mainsectionsciencefictionmovies img:hover,
+#Mainsectionwarmovies img:hover, #Mainsectionthrillermovies img:hover, #Mainsectionhorrormovies img:hover,
+#Mainsectiontvpopularseries img:hover, #Mainsectiontvtopratedseries img:hover
+{
+    transform: scale(1.04);
+    user-select: none;
+}
+#Mainsection img:active, #Mainsectiontoprated img:active, #Mainsectionlatest img:active, #Mainsectiontvseries img:active,
+#Mainsectionactionmovies img:active, #Mainsectionsciencefictionmovies img:active,
+#Mainsectionwarmovies img:active, #Mainsectionthrillermovies img:active, #Mainsectionhorrormovies img:active,
+#Mainsectiontvpopularseries img:active, #Mainsectiontvtopratedseries img:active
+{
+    transform: scale(1.04);
+}
